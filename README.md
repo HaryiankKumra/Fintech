@@ -53,7 +53,7 @@ Step-by-step instructions on how to install your project. For example:
 
 3. Run the backend server:
 
-   
+   ```sh
     python manage.py runserver
     ```
 

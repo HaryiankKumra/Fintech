@@ -1,6 +1,6 @@
 # Fintech
 
-![Fintech Logo](Fintech\hacky\Monances\images)
+![Fintech Logo](hacky/Monances/images/logo.svg)
 
 A brief description of your project goes here. This could include what the project does, why it exists, and any key features.
 

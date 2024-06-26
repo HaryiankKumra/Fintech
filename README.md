@@ -2,7 +2,7 @@
 
 ![Fintech Logo](hacky/Monances/images/logo.svg)
 
-A brief description of your project goes here. This could include what the project does, why it exists, and any key features.
+Fintech is a comprehensive financial management website designed to help you balance your money between investments and savings. With the guidance of an integrated chatbot, you can receive personalized financial advice. The platform allows you to check your CIBIL score, divide your money in the right proportions, and track your expenses. Additionally, Fintech offers many other features to assist you in managing your finances effectively.
 
 ## Table of Contents
 
@@ -87,4 +87,4 @@ Guidelines for contributing to your project. This can include how to report issu
 
 - **Haryiank Kumra**
 - [GitHub](https://github.com/HaryiankKumra)
-- [Email](hkumra_be23@thapar.edu)
+- [Email](mailto:hkumra_be23@thapar.edu)

@@ -87,15 +87,15 @@ document.getElementById('calculateBtn').addEventListener('click', calculateScore
 // Navigation button functions
 function goToDashboard() {
     alert("Navigating to Dashboard...");
-    // Add actual navigation logic here
+    https://haryiankkumra.github.io/Fintech/hacky/Monances/pages/Dashboard/dashboard.html
 }
 
 function goToAbout() {
     alert("Navigating to About...");
-    // Add actual navigation logic here
+    https://haryiankkumra.github.io/Fintech/landingpage.html
 }
 
 function goToContact() {
     alert("Navigating to Contact...");
-    // Add actual navigation logic here
+   https://haryiankkumra.github.io/Fintech/landingpage.html#target-section
 }

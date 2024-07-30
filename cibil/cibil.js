@@ -86,17 +86,17 @@ document.getElementById('calculateBtn').addEventListener('click', calculateScore
 
 // Navigation button functions
 function goToDashboard() {
-    alert("Navigating to Dashboard...");
-    window.location.href = "https://haryiankkumra.github.io/Fintech/hacky/Monances/pages/Dashboard/dashboard.html";
+   
+    window.location.href = "/hacky/Monances/pages/Dashboard/dashboard.html";
 }
 
 function goToAbout() {
-    alert("Navigating to About...");
-    window.location.href = "https://haryiankkumra.github.io/Fintech/landingpage.html";
+   
+    window.location.href = "/landingpage.html";
 }
 
 function goToContact() {
-    alert("Navigating to Contact...");
-    window.location.href = "https://haryiankkumra.github.io/Fintech/landingpage.html#target-section";
+ 
+    window.location.href = "/landingpage.html#target-section";
 }
 

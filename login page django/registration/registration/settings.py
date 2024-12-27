@@ -23,10 +23,25 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#8w8d*y!%y%$-2g*%5nkb43025)z)&^0b=kmxq0eetpf5svh@)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False  # Disable debug in production
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://vercel.com/haryiankkumras-projects/fintech/4kBQmXuxFtmXSqBSeijz4RpQHtgY', '127.0.0.1', 'localhost']
 
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Add this for SQLite on ephemeral Vercel filesystem
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',  # File-based database
+    }
+}
 
 # Application definition
 
